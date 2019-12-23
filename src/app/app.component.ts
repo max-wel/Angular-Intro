@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'first-angular-app';
+  route = 'recipes';
+
+  handleNavSelect(route: string) {
+    this.route = route;
+  }
 }

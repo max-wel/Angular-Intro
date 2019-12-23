@@ -1,6 +1,6 @@
 <div class="row">
   <div class="col-12">
-    <img src="" alt="" class="img-responsive" />
+    <img [src]="recipe.imagePath" alt="" class="img-responsive" />
   </div>
 </div>
 <div class="row">
@@ -23,6 +23,6 @@
   </div>
 </div>
 <div>
-  Description
+  {{ recipe.description }}
 </div>
 <div>Ingredients</div>
